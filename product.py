@@ -24,19 +24,19 @@ class ProductSupplier:
     __name__ = 'purchase.product_supplier'
     warranty_duration = fields.Float('Warranty',
         help='Warranty in months for this product/supplier relation.')
-    warranty_return_partner = fields.Selection('get_warranty_return_partner',
-        'Warrantee return', help='Who is in charge of the warranty return '
-            'treatment towards the end customer.')
+    warranty_return_partner = fields.Selection([
+        ('', ''),
+        ('company', 'Company'),
+        ('supplier', 'Supplier'),
+        ('other', 'Other'),
+        ], 'Warrantee return', help='Who is in charge of the warranty return '
+        'treatment towards the end customer.')
     warranty_instructions = fields.Many2One('product.warranty.instruction', 'Instructions',
         help='Instructions for product return.')
 
     @staticmethod
-    def get_warranty_return_partner():
-        return [
-            ('company', 'Company'),
-            ('supplier', 'Supplier'),
-            ('other', 'Other'),
-            ]
+    def default_warranty_return_partner():
+        return 'company'
 
     @staticmethod
     def default_warranty_instructions():
