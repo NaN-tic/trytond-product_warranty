@@ -7,7 +7,6 @@ copyright notices and license terms. -->
             position="after">
         <field name="warranty_duration"/>
         <field name="warranty_return_partner"/>
-        <field name="warranty_return_partner"/>
-        <field name="active_supplier"/>
+        <field name="warranty_instructions"/>
     </xpath>
 </data>
