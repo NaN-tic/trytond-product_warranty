@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- This file is part of the product_warranty module for Tryton.
+The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<data>
+    <xpath expr="/form/field[@name=&quot;currency&quot;]"
+            position="after">
+        <newline/>
+        <separator string="Warranty" colspan="4"/>
+        <label name="warranty_duration"/>
+        <field name="warranty_duration"/>
+        <label name="warranty_return_partner"/>
+        <field name="warranty_return_partner"/>
+        <label name="warranty_instructions"/>
+        <field name="warranty_instructions"/>
+    </xpath>
+</data>

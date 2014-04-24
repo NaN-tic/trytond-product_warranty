@@ -1,0 +1,101 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.warranty.instruction,create_date:"
+msgid "Create Date"
+msgstr "Fecha creación"
+
+msgctxt "field:product.warranty.instruction,create_uid:"
+msgid "Create User"
+msgstr "Usuario creación"
+
+msgctxt "field:product.warranty.instruction,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:product.warranty.instruction,instructions:"
+msgid "Instructions"
+msgstr "Instrucciones"
+
+msgctxt "field:product.warranty.instruction,is_default:"
+msgid "Default"
+msgstr "Por defecto"
+
+msgctxt "field:product.warranty.instruction,name:"
+msgid "Title"
+msgstr "Título"
+
+msgctxt "field:product.warranty.instruction,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:product.warranty.instruction,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:product.warranty.instruction,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "field:purchase.product_supplier,warranty_duration:"
+msgid "Warranty"
+msgstr "Garantía"
+
+msgctxt "field:purchase.product_supplier,warranty_instructions:"
+msgid "Instructions"
+msgstr "Instrucciones"
+
+msgctxt "field:purchase.product_supplier,warranty_return_partner:"
+msgid "Warrantee return"
+msgstr "Garantía de devolución"
+
+msgctxt "help:product.warranty.instruction,instructions:"
+msgid "Instructions for product return"
+msgstr "Instrucciones de la devolución del producto"
+
+msgctxt "help:product.warranty.instruction,is_default:"
+msgid ""
+"If this warranty is the default one, it will be used to set the default "
+"value in supplier info. Be careful to have only one default."
+msgstr ""
+"Si la garantía esta activo por defecto, se usará como valor predeterminado "
+"en el producto del proveedor. Sólo accione un valor por defecto."
+
+msgctxt "help:purchase.product_supplier,warranty_duration:"
+msgid "Warranty in months for this product/supplier relation."
+msgstr ""
+"Garantía en meses para esta relación producto/proveedor. Sólo para la "
+"relación compañía/proveedor (pedido de compra); la relación compañía/cliente"
+" (pedido de venta) siempre utiliza el campo garantía principal del producto."
+
+msgctxt "help:purchase.product_supplier,warranty_instructions:"
+msgid "Instructions for product return."
+msgstr "Instrucciones de la devolución del producto."
+
+msgctxt "help:purchase.product_supplier,warranty_return_partner:"
+msgid ""
+"Who is in charge of the warranty return treatment towards the end customer."
+msgstr ""
+"Quien se hace cargo del tratamiento de la devolución en garantía hacia el "
+"cliente final."
+
+msgctxt "model:ir.action,name:act_product_warranty_instruction"
+msgid "Product Warranty"
+msgstr "Garantía producto"
+
+msgctxt "model:ir.ui.menu,name:menu_product_warranty_instruction"
+msgid "Product Warranty"
+msgstr "Garantía producto"
+
+msgctxt "model:product.warranty.instruction,name:"
+msgid "Product Warranty Instruction"
+msgstr "Instrucciones de la garantía del producto"
+
+msgctxt "view:product.warranty.instruction:"
+msgid "Product Warranty"
+msgstr "Garantía producto"
+
+msgctxt "view:purchase.product_supplier:"
+msgid "Warranty"
+msgstr "Garantía"

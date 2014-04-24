@@ -1,0 +1,94 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.warranty.instruction,create_date:"
+msgid "Create Date"
+msgstr "Data creació"
+
+msgctxt "field:product.warranty.instruction,create_uid:"
+msgid "Create User"
+msgstr "Usuari creació"
+
+msgctxt "field:product.warranty.instruction,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:product.warranty.instruction,instructions:"
+msgid "Instructions"
+msgstr "Instruccions"
+
+msgctxt "field:product.warranty.instruction,is_default:"
+msgid "Default"
+msgstr "Per defecte"
+
+msgctxt "field:product.warranty.instruction,name:"
+msgid "Title"
+msgstr "Títol"
+
+msgctxt "field:product.warranty.instruction,rec_name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:product.warranty.instruction,write_date:"
+msgid "Write Date"
+msgstr "Data modificació"
+
+msgctxt "field:product.warranty.instruction,write_uid:"
+msgid "Write User"
+msgstr "Usuari modificació"
+
+msgctxt "field:purchase.product_supplier,warranty_duration:"
+msgid "Warranty"
+msgstr "Garantia"
+
+msgctxt "field:purchase.product_supplier,warranty_instructions:"
+msgid "Instructions"
+msgstr "Instruccions"
+
+msgctxt "field:purchase.product_supplier,warranty_return_partner:"
+msgid "Warrantee return"
+msgstr "Garantia devolució"
+
+msgctxt "help:product.warranty.instruction,instructions:"
+msgid "Instructions for product return"
+msgstr "Instruccions per la devolució del producte."
+
+msgctxt "help:product.warranty.instruction,is_default:"
+msgid ""
+"If this warranty is the default one, it will be used to set the default "
+"value in supplier info. Be careful to have only one default."
+msgstr ""
+
+msgctxt "help:purchase.product_supplier,warranty_duration:"
+msgid "Warranty in months for this product/supplier relation."
+msgstr "La garantía en mesos d'aquest producte y proveidor."
+
+msgctxt "help:purchase.product_supplier,warranty_instructions:"
+msgid "Instructions for product return."
+msgstr "Instruccions per la devolució del producte."
+
+msgctxt "help:purchase.product_supplier,warranty_return_partner:"
+msgid ""
+"Who is in charge of the warranty return treatment towards the end customer."
+msgstr "A qui va càrrec la garantía d'aquest producte cap el client final."
+
+msgctxt "model:ir.action,name:act_product_warranty_instruction"
+msgid "Product Warranty"
+msgstr "Garantia producte"
+
+msgctxt "model:ir.ui.menu,name:menu_product_warranty_instruction"
+msgid "Product Warranty"
+msgstr "Garantia producte"
+
+msgctxt "model:product.warranty.instruction,name:"
+msgid "Product Warranty Instruction"
+msgstr "Instruccions garantia del producte"
+
+msgctxt "view:product.warranty.instruction:"
+msgid "Product Warranty"
+msgstr "Garantia producte"
+
+msgctxt "view:purchase.product_supplier:"
+msgid "Warranty"
+msgstr "Garantia"
