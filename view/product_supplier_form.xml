@@ -6,7 +6,7 @@ copyright notices and license terms. -->
     <xpath expr="/form/field[@name=&quot;currency&quot;]"
             position="after">
         <newline/>
-        <separator string="Warranty" colspan="4"/>
+        <separator string="Warranty" colspan="4" id="warranty"/>
         <label name="warranty_duration"/>
         <field name="warranty_duration"/>
         <label name="warranty_return_partner"/>
