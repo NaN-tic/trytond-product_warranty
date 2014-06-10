@@ -59,6 +59,8 @@ msgid ""
 "If this warranty is the default one, it will be used to set the default "
 "value in supplier info. Be careful to have only one default."
 msgstr ""
+"Si la garantia està actiu per defecte, s'utilitzarà com a valor per defecte "
+"en el producte del proveïdor. Només activa un valor per defecte."
 
 msgctxt "help:purchase.product_supplier,warranty_duration:"
 msgid "Warranty in months for this product/supplier relation."
@@ -84,6 +86,22 @@ msgstr "Garantia producte"
 msgctxt "model:product.warranty.instruction,name:"
 msgid "Product Warranty Instruction"
 msgstr "Instruccions garantia del producte"
+
+msgctxt "selection:purchase.product_supplier,warranty_return_partner:"
+msgid ""
+msgstr " "
+
+msgctxt "selection:purchase.product_supplier,warranty_return_partner:"
+msgid "Company"
+msgstr "Empresa"
+
+msgctxt "selection:purchase.product_supplier,warranty_return_partner:"
+msgid "Other"
+msgstr "Altre"
+
+msgctxt "selection:purchase.product_supplier,warranty_return_partner:"
+msgid "Supplier"
+msgstr "Proveïdor"
 
 msgctxt "view:product.warranty.instruction:"
 msgid "Product Warranty"

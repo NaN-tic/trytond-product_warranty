@@ -92,6 +92,22 @@ msgctxt "model:product.warranty.instruction,name:"
 msgid "Product Warranty Instruction"
 msgstr "Instrucciones de la garantía del producto"
 
+msgctxt "selection:purchase.product_supplier,warranty_return_partner:"
+msgid ""
+msgstr ""
+
+msgctxt "selection:purchase.product_supplier,warranty_return_partner:"
+msgid "Company"
+msgstr "Empresa"
+
+msgctxt "selection:purchase.product_supplier,warranty_return_partner:"
+msgid "Other"
+msgstr "Otros"
+
+msgctxt "selection:purchase.product_supplier,warranty_return_partner:"
+msgid "Supplier"
+msgstr "Proveedor"
+
 msgctxt "view:product.warranty.instruction:"
 msgid "Product Warranty"
 msgstr "Garantía producto"
