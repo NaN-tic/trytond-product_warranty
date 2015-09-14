@@ -12,7 +12,7 @@ msgstr "Usuario creación"
 
 msgctxt "field:product.warranty.instruction,id:"
 msgid "ID"
-msgstr "Identificador"
+msgstr "ID"
 
 msgctxt "field:product.warranty.instruction,instructions:"
 msgid "Instructions"
