@@ -89,7 +89,7 @@ msgstr "Instruccions garantia del producte"
 
 msgctxt "selection:purchase.product_supplier,warranty_return_partner:"
 msgid ""
-msgstr " "
+msgstr ""
 
 msgctxt "selection:purchase.product_supplier,warranty_return_partner:"
 msgid "Company"
