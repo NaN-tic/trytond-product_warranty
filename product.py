@@ -5,7 +5,6 @@ from trytond.model import ModelView, ModelSQL, fields
 from trytond.pool import Pool, PoolMeta
 
 __all__ = ['ProductWarrantyInstruction', 'ProductSupplier']
-__metaclass__ = PoolMeta
 
 
 class ProductWarrantyInstruction(ModelSQL, ModelView):
@@ -21,6 +20,7 @@ class ProductWarrantyInstruction(ModelSQL, ModelView):
 
 
 class ProductSupplier:
+    __metaclass__ = PoolMeta
     __name__ = 'purchase.product_supplier'
     warranty_duration = fields.Float('Warranty',
         help='Warranty in months for this product/supplier relation.')
