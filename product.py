@@ -19,8 +19,7 @@ class ProductWarrantyInstruction(ModelSQL, ModelView):
         'default.')
 
 
-class ProductSupplier:
-    __metaclass__ = PoolMeta
+class ProductSupplier(metaclass=PoolMeta):
     __name__ = 'purchase.product_supplier'
     warranty_duration = fields.Float('Warranty',
         help='Warranty in months for this product/supplier relation.')

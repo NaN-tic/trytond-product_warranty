@@ -3,8 +3,7 @@
 The COPYRIGHT file at the top level of this repository contains the full
 copyright notices and license terms. -->
 <data>
-    <xpath expr="/form/field[@name=&quot;currency&quot;]"
-            position="after">
+    <xpath expr="/form/field[@name='currency']" position="after">
         <newline/>
         <separator string="Warranty" colspan="4" id="warranty"/>
         <label name="warranty_duration"/>
